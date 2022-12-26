@@ -1,0 +1,40 @@
+{
+    "compileOnSave": false,
+    "buildOnSave": false, // prevent js files from auto-generated
+    "compilerOptions": {
+        "outDir": "build/dist",
+        "target": "es5",
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "es6"
+        ],
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "importHelpers": true,
+        "isolatedModules": true,
+        "jsx": "preserve",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "noEmit": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noImplicitAny": true,
+        "noUnusedLocals": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "strictNullChecks": true,
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "include": [
+        "src"
+    ],
+    "exclude": [
+        "bin",
+        "build",
+        "node_modules"
+    ]
+}
